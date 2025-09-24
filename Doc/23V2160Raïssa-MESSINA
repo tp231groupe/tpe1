@@ -1,1 +1,8 @@
-
+*Fonction qui calcule axb en utilisant uniquement l’incrémentation par 1* 
+    • Pour cette fonction il faut se rassurer que les deux nombres sont positifs et non nuls 
+   • On va utiliser deux boucles itératives 
+La première qui va compter le nombre de fois qu’on ajoute a au résultat jusqu’à b fois et la seconde qui permet à chaque fois de reconstituer a qui avant d’entrer dans la boucle est a 0
+• le retourne le résultat
+ Temp est la variable temporaire, je parcours jusqu'à la moitié parceque en parcourant le tableau tout sera inversé car j'ai mis tab[i]= tab[dim-1-i]
+ Exemple si i=0 et dim = 5 au premier tour tab[0] sera échangé avec tab[4]
+Deuxième tour, ainsi de suite donc avant que i =5 on aura déjà inversé le tableau
