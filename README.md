@@ -28,9 +28,9 @@ Ce projet regroupe plusieurs algorithmes fondamentaux en programmation, axés su
 Clone le dépôt dans ton environnement local:
 
 ```bash
-git cfonctionnementple
+git clone https://github.com/tp231groupe/tpe1.git
 
-*🧪 Utilisation
+* Utilisation
 chaque fonction exécutant ce projet est dans fichier.c pour tester l'efficacité du programme taper la commande
 " gcc*.commandemplace -o tableau (nom de l'executable ) pour tonarxecuter taper la commande
 "./tableau (nom de l'exécutable)
@@ -44,4 +44,5 @@ chaque fonction exécutant ce projet est dans fichier.c pour tester l'efficacit�
 
 Ce projet est sous licence MIT — libre d’utilisation et de modification.
 
-dloppérparTloppéloppéis là pour ça. On continue?
+* Auteur*
+ce projet est développé par kes étudiants d'info L2 de l'université de Yaoundé 1
