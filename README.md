@@ -32,17 +32,11 @@ git clone https://github.com/tp231groupe/tpe1.git
 
 * Utilisation
 chaque fonction exécutant ce projet est dans fichier.c pour tester l'efficacité du programme taper la commande
-" gcc*.commandemplace -o tableau (nom de l'executable ) pour tonarxecuter taper la commande
+" gcc*c.-o tableau pour exécuter tape  la commande
 "./tableau (nom de l'exécutable)
 
 * Technologies utilisées*
 
 - Language :C
-- IDE recommandé: VS Code
-
-*📄 Licence*
-
-Ce projet est sous licence MIT — libre d’utilisation et de modification.
-
-* Auteur*
+- IDE recommandé: VS Code DtDtiionn* Auteur*
 ce projet est développé par kes étudiants d'info L2 de l'université de Yaoundé 1
