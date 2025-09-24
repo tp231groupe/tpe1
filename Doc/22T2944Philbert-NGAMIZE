@@ -1,0 +1,46 @@
+Rôle dans le projet : Responsable de la partie operation Matricielle
+
+## Contexte
+
+Pour ce projet, j’étais responsable de la partie **matrices**.
+L’idée était de manipuler des matrices en C, de mettre en pratique les opérations classiques et de vérifier la compatibilité des dimensions avant toute opération.
+C’était un bon exercice pour combiner **mathématiques** et **programmation dynamique en C**.
+
+---
+
+## Somme de deux matrices
+
+### Comment ça marche
+
+Avant d’additionner deux matrices, il faut s’assurer qu’elles ont **la même taille**. Ensuite, on additionne les éléments **un par un** pour construire une nouvelle matrice résultat.
+
+### Pseudo-code
+
+```
+fonction somme_matrices(A, B)
+    si dimensions(A) ≠ dimensions(B)
+        afficher "Erreur"
+        arrêter
+    C ← matrice de même taille que A
+    pour chaque ligne i
+        pour chaque colonne j
+            C[i][j] ← A[i][j] + B[i][j]
+    retourner C
+```
+
+### Exemple
+
+```
+A = 1 2
+    3 4
+
+B = 5 6
+    7 8
+
+C = A + B
+Résultat :
+C = 6  8
+    10 12
+```
+
+> Ici, chaque élément de `C` est juste la somme des éléments correspondants de `A` et `B`.
