@@ -38,5 +38,6 @@ chaque fonction exécutant ce projet est dans fichier.c pour tester l'efficacit�
 * Technologies utilisées*
 
 - Language :C
-- IDE recommandé: VS Code DtDtiionn* Auteur*
+- IDE recommandé: VS Code
+* Auteur*
 ce projet est développé par kes étudiants d'info L2 de l'université de Yaoundé 1
