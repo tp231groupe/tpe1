@@ -23,3 +23,7 @@ les opérations que j'ai réalisé pour ce projet sont :
 au départ j'ai créé un fonction **saisir_vecteur** qui va permettre a l'utilisateur d'entrer le vecteur. celui-ci est un tableau linéaire qui va stocker 3 valeurs  et la saisie se fera dans une **boucle for**.
 puis nous avons créé une fonction **afficher_vecteur** pour que celle-ci affiche le résultat de l'opération 
 enfin nous avons créé la fonction **produit vectoriel** pour réaliser le calcul.ayant défini un tableau résultat qui va stoker le résultat de l'opération.
+
+## produit vectoriel x matrice
+
+ici nous avons créé une fonction **produit_vectorielxmatrice** qui va prendre une matrice, une matrice résultat  et un vecteur en paramètre . dans une **boucle for** on initialise la matrice résultat puis on déclare une seconde boucle for qui va realiser l'opération de produit
