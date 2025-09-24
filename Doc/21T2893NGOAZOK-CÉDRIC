@@ -1,1 +1,91 @@
+Vérification si un tableau est trié en ordre croissant
 
+➤ Objectif :
+
+Ce programme vérifie si les éléments d’un tableau sont triés dans l’ordre croissant.
+
+➤ Fonctionnement :
+
+1. L’utilisateur entre la taille du tableau, puis les éléments un à un.
+
+
+2. La fonction est_trie() parcourt le tableau et compare chaque élément avec le suivant.
+
+
+3. Si un élément est plus grand que le suivant, le tableau n’est pas trié, sinon il l’est.
+
+
+
+➤ Exemple :
+
+Entrée : 1 2 3 4 → Sortie : "Le tableau est trié"
+
+Entrée : 5 3 1 → Sortie : "Le tableau n'est pas trié"
+
+
+➤ Note :
+
+Utilisation du type bool pour un code plus lisible.
+
+Le programme utilise des tableaux dynamiques (VLA 
+
+ Recherche séquentielle dans un tableau
+
+➤ Objectif :
+
+Ce programme recherche une valeur précise dans un tableau à l’aide de la recherche séquentielle.
+
+➤ Fonctionnement :
+
+1. L’utilisateur entre la taille du tableau et ses éléments.
+
+
+2. Il entre ensuite la valeur à rechercher.
+
+
+3. La fonction recherche_sequentielle() parcourt le tableau de gauche à droite :
+
+Si elle trouve la valeur, elle retourne son indice.
+
+Sinon, elle retourne -1.
+
+
+
+
+➤ Exemple :
+
+Tableau : 3 7 9 2, Valeur : 9 → Résultat : "trouvée à l’indice 2"
+
+Tableau : 4 6 8, Valeur : 1 → Résultat : "non trouvée"
+
+ Inversion d’un tableau
+
+➤ Objectif :
+
+Ce programme inverse les éléments d’un tableau, c’est-à-dire que le premier devient le dernier, le deuxième devient l’avant-dernier, etc.
+
+➤ Fonctionnement :
+
+1. L’utilisateur entre la taille et les éléments du tableau.
+
+
+2. Le programme affiche le tableau initial.
+
+
+3. La fonction inverserTableau() échange les éléments du début et de la fin progressivement.
+
+
+4. Le tableau inversé est ensuite affiché.
+
+
+
+➤ Exemple :
+
+Entrée : 1 2 3 4 5 → Sortie : 5 4 3 2 1
+
+
+➤ Remarques :
+
+La taille maximale du tableau est fixée à 100 éléments.
+
+Le programme gère les cas de taille invalide (≤ 0).
