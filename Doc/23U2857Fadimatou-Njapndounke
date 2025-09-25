@@ -1,0 +1,30 @@
+Vérification si un tableau est trié en ordre croissant
+
+➤ Objectif :
+
+Ce programme vérifie si les éléments d’un tableau sont triés dans l’ordre croissant.
+
+➤ Fonctionnement :
+
+1. L’utilisateur entre la taille du tableau, puis les éléments un à un.
+
+
+2. La fonction est_trie() parcourt le tableau et compare chaque élément avec le suivant.
+
+
+3. Si un élément est plus grand que le suivant, le tableau n’est pas trié, sinon il l’est.
+
+
+
+➤ Exemple :
+
+Entrée : 1 2 3 4 → Sortie : "Le tableau est trié"
+
+Entrée : 5 3 1 → Sortie : "Le tableau n'est pas trié"
+
+
+➤ Note :
+
+Utilisation du type bool pour un code plus lisible.
+
+Le programme utilise des tableaux dynamiques (VLA 
