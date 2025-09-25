@@ -18,6 +18,7 @@ le squelette du programme c'est ici que tout se passe la partie **coding** du pr
 les opérations que j'ai réalisé pour ce projet sont :
 -le produit vectoriel
 -le produit vectoriel x matrice
+-le median d'un tableau
 
 ## produit vectoriel
 au départ j'ai créé un fonction **saisir_vecteur** qui va permettre a l'utilisateur d'entrer le vecteur. celui-ci est un tableau linéaire qui va stocker 3 valeurs  et la saisie se fera dans une **boucle for**.
@@ -27,3 +28,7 @@ enfin nous avons créé la fonction **produit vectoriel** pour réaliser le calc
 ## produit vectoriel x matrice
 
 ici nous avons créé une fonction **produit_vectorielxmatrice** qui va prendre une matrice, une matrice résultat  et un vecteur en paramètre . dans une **boucle for** on initialise la matrice résultat puis on déclare une seconde boucle for qui va realiser l'opération de produit
+
+## mediane d'un tableau
+
+la medi
